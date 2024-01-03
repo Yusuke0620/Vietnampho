@@ -20,6 +20,7 @@ img {
   max-width: 100%;
 }
 /* /ここまで共通設定 */
+
 body {
   line-height: 1.7;
 }
@@ -33,7 +34,7 @@ body {
 .wrapper {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 0 4%;
+  padding: 0 4%; /* スマホ向けで余白を作る */
 }
 
 h1 {
@@ -51,10 +52,8 @@ h1 span {
 
 .logo {
   width: 80px;
-  margin: 14px 10px 0 0; 
-
+  margin: 14px 10px 0 0;
 }
-
 
 .main-nav {
   display: flex;
@@ -75,7 +74,7 @@ h1 span {
   color: aqua;
 }
 
-/* 大きな画像 */
+/* 大きな背景画像 */
 .big-bg {  
   background-size: cover;
   background-position: center;
@@ -95,6 +94,7 @@ h1 span {
   margin-top: 2%;
 }
 
+/* 見出し */
 .page-title {
   font-family: 'Philosopher', serif; 
   font-size: 5rem;
@@ -107,6 +107,7 @@ h1 span {
   font-weight: bold
 }
 
+/* ボタン */
 .button {
   display: inline-block;
   font-size: 2rem;
