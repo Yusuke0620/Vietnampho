@@ -82,7 +82,7 @@ h1 span {
 }
 
 #home {
-  background: url(main_pho2.png);
+  background: url("main_pho2.png");
   min-height: 100vh;
   background-size: cover;
 }
